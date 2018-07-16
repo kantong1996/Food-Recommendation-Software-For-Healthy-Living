@@ -1,0 +1,12 @@
+# Food Recommendation Software For Healthy Living
+## Abstract  
+Food Recommendation Software for Healthy Living is meal plan recommendation and health monitoring system. Users must respond to a questionnaire for the system to analyze the user’s basal metabolic rate (BMR) and update their answers every month. It allows users to track and view the results each month. It is convenient for the users to continuously track their results on their smartphone. Also, this will reduce error in tracking.  One week’s meal plan will be created when user needs or want to create a plan. The food list will be filtered with SQLite so that each food item does not exceed user’s caloric cap, based on user’s basal metabolic rate, for each meal. The food item for a meal is then randomly selected from the filtered list. The caloric need is determined based on user data obtained from recent respond to a questionnaire. The system is developed with Android Studio. The main packages are Android’s SQLiteDatabase and Android’s SQLiteOpenHelper, which manage all databases, Android’s Fragment and Android’s FragmentTransaction, which manage the application window, and Android’s RecyclerView and Android’s ListView, which handle displaying data from database. Meal plan compliance can be observed from the user's evaluation and comparison of the user's data monthly. It allows users to self-assess their compliance with the meal plan. Also, users will be able to see the results of the food item fulfillment from the user's data each month. 
+## Technology
+  - Android Studio 
+  - SQLite
+## Screenshots
+[![36343713_1330991007003892_7964408756077330432_n.png](https://s15.postimg.cc/n3fgoqm4r/36343713_1330991007003892_7964408756077330432_n.png)](https://postimg.cc/image/3yc7ez7gn/)
+[![36310213_1330991017003891_7737211802232029184_n.png](https://s15.postimg.cc/p99rje2hn/36310213_1330991017003891_7737211802232029184_n.png)](https://postimg.cc/image/8li9gw7pz/)
+[![36222907_1330996623669997_6935215471037775872_n.png](https://s15.postimg.cc/qobc8e68b/36222907_1330996623669997_6935215471037775872_n.png)](https://postimg.cc/image/3zm58touf/)
+[![36223154_1330996637003329_5878890113085210624_n.png](https://s15.postimg.cc/5enpxl7y3/36223154_1330996637003329_5878890113085210624_n.png)](https://postimg.cc/image/6gxwg4qrb/)
+[![36293270_1330998043669855_7178211049764552704_n.png](https://s15.postimg.cc/h51neoy2z/36293270_1330998043669855_7178211049764552704_n.png)](https://postimg.cc/image/ael659ax3/)
